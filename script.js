@@ -51,6 +51,7 @@ function getData() {
       redirect: 'follow',
       mode: 'no-cors'
     };
+    console.log('v1.0');
     //let res =   await 
   fetch("https://cyntexa608-dev-ed.my.salesforce.com/services/data/v55.0/tooling/executeAnonymous/?anonymousBody=System.debug('Test2')%3B", requestOptions)
 //   console.log(res);
