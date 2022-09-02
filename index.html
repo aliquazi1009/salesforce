@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Create Lead</title>
+</head>
+
+<body>
+    <div class="container outer">
+        <div class="wrapper">
+            <!-- <form> -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required/>
+                </div>
+                <div class="mb-3">
+                    <label for="company" class="form-label">Company</label>
+                    <input type="text" class="form-control" id="company" required/>
+                </div>
+                <div class="mb-3">
+                    <label for="leadStatus" class="form-label">Lead Status</label>
+                    <select class="form-select" id="leadStatus">
+                        <option selected value="Open - Not Contacted">Open - Not Contacted</option>
+                        <option value="Working - Contacted">Working - Contacted</option>
+                        <option value="Closed - Converted">Closed - Converted</option>
+                        <option value="Closed - Not Converted">Closed - Not Converted</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="getData()">Submit</button>
+            <!-- </form> -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
