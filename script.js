@@ -51,10 +51,10 @@ function getData() {
       redirect: 'follow',
       mode: 'no-cors'
     };
-
-  let res =   await fetch("https://cyntexa608-dev-ed.my.salesforce.com/services/data/v55.0/tooling/executeAnonymous/?anonymousBody=System.debug('Test2')%3B", requestOptions)
-  console.log(res);
-  //     .then(response => response.text())
-//       .then(result => console.log(result))
-//       .catch(error => console.log('error', error));
+    //let res =   await 
+  fetch("https://cyntexa608-dev-ed.my.salesforce.com/services/data/v55.0/tooling/executeAnonymous/?anonymousBody=System.debug('Test2')%3B", requestOptions)
+//   console.log(res);
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
 }
