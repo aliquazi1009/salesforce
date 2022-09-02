@@ -39,7 +39,7 @@ async function getData() {
     var myHeaders = new Headers();
     myHeaders.append("Authorization", "Bearer 00D5i000003N8dT!AR8AQDFOeHL4oacHLnxlpXqzRo7a5eyNcojyc3PD5nI.dJ_pMIwtg4mSzjf4gPlbZD23TBXBiH8Wb3hNThhvyyMPXzBySYRs");
     myHeaders.append("Content-Type", "application/json");
-    myHeaders.append("Cookie", "BrowserId=X2jRpQnHEe2vvyvcgNcM-A; CookieConsentPolicy=0:1; LSKey-c$CookieConsentPolicy=0:1");
+    // myHeaders.append("Cookie", "BrowserId=X2jRpQnHEe2vvyvcgNcM-A; CookieConsentPolicy=0:1; LSKey-c$CookieConsentPolicy=0:1");
 
     var requestOptions = {
        method: 'GET',
@@ -51,9 +51,9 @@ async function getData() {
       mode: 'no-cors'
     };
 
-  let res =   await fetch("https://cyntexa608-dev-ed.my.salesforce.com/services/data/v55.0/tooling/executeAnonymous/?anonymousBody=System.debug('Test 2')%3B", requestOptions)
-console.log(res);
-  //       .then(response => response.text())
+  let res =   await fetch("https://cyntexa608-dev-ed.my.salesforce.com/services/data/v55.0/tooling/executeAnonymous/?anonymousBody=System.debug('Test2')%3B", requestOptions)
+  console.log(res);
+  //     .then(response => response.text())
 //       .then(result => console.log(result))
 //       .catch(error => console.log('error', error));
 }
