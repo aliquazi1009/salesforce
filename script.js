@@ -1,4 +1,4 @@
-async function getData() {
+function getData() {
     // let name = document.getElementById('name').value;
     // let company = document.getElementById('company').value;
     // let leadStatus = document.getElementById('leadStatus').value;
@@ -43,10 +43,11 @@ async function getData() {
 
     var requestOptions = {
        method: 'GET',
-       headers: {
-        "Authorization": "Bearer 00D5i000003N8dT!AR8AQDFOeHL4oacHLnxlpXqzRo7a5eyNcojyc3PD5nI.dJ_pMIwtg4mSzjf4gPlbZD23TBXBiH8Wb3hNThhvyyMPXzBySYRs",
-         "Content-Type": "application/json"
-  },
+       headers: myHeaders,
+//          {
+//         "Authorization": "Bearer 00D5i000003N8dT!AR8AQDFOeHL4oacHLnxlpXqzRo7a5eyNcojyc3PD5nI.dJ_pMIwtg4mSzjf4gPlbZD23TBXBiH8Wb3hNThhvyyMPXzBySYRs",
+//          "Content-Type": "application/json"
+//   },
       redirect: 'follow',
       mode: 'no-cors'
     };
