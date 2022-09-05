@@ -37,7 +37,7 @@ function getData() {
     //   });
 
     var myHeaders = new Headers();
-    myHeaders.append("Authorization", "Bearer 00D5i000003N8dT!AR8AQDFOeHL4oacHLnxlpXqzRo7a5eyNcojyc3PD5nI.dJ_pMIwtg4mSzjf4gPlbZD23TBXBiH8Wb3hNThhvyyMPXzBySYRs");
+    myHeaders.append("Authorization", "Bearer 00D5i000003N8dT!AR8AQAewvrgWd0EsFpO2colYvPngPJjN0i73_2QTXAwBltCIqAhP7MtWmKwX5CERmYPJoZKwfkWqUn9px.JfQxKgbwp.6Zkr");
     myHeaders.append("Content-Type", "application/json");
     // myHeaders.append("Cookie", "BrowserId=X2jRpQnHEe2vvyvcgNcM-A; CookieConsentPolicy=0:1; LSKey-c$CookieConsentPolicy=0:1");
 
