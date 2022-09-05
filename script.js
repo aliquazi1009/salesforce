@@ -44,10 +44,12 @@ function getData() {
     var requestOptions = {
        method: 'GET',
        headers: myHeaders,
-//          {
-//         "Authorization": "Bearer 00D5i000003N8dT!AR8AQDFOeHL4oacHLnxlpXqzRo7a5eyNcojyc3PD5nI.dJ_pMIwtg4mSzjf4gPlbZD23TBXBiH8Wb3hNThhvyyMPXzBySYRs",
-//          "Content-Type": "application/json"
-//   },
+          {
+         "Authorization": "Bearer 00D5i000003N8dT!AR8AQDFOeHL4oacHLnxlpXqzRo7a5eyNcojyc3PD5nI.dJ_pMIwtg4mSzjf4gPlbZD23TBXBiH8Wb3hNThhvyyMPXzBySYRs",
+         "Content-Type": "application/json",
+         "access-control-allow-credentials": true,
+         "access-control-allow-origin": "*"
+   },
       redirect: 'follow',
       mode: 'no-cors'
     };
