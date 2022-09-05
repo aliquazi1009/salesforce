@@ -43,15 +43,13 @@ function getData() {
 
     var requestOptions = {
        method: 'GET',
-       headers: myHeaders,
-          {
+       headers: {
          "Authorization": "Bearer 00D5i000003N8dT!AR8AQAewvrgWd0EsFpO2colYvPngPJjN0i73_2QTXAwBltCIqAhP7MtWmKwX5CERmYPJoZKwfkWqUn9px.JfQxKgbwp.6Zkr",
          "Content-Type": "application/json",
          "access-control-allow-credentials": true,
          "access-control-allow-origin": "*"
    },
-      redirect: 'follow',
-      mode: 'no-cors'
+      redirect: 'follow'
     };
     console.log('v1.0');
     //let res =   await 
