@@ -45,7 +45,7 @@ function getData() {
        method: 'GET',
        headers: myHeaders,
           {
-         "Authorization": "Bearer 00D5i000003N8dT!AR8AQDFOeHL4oacHLnxlpXqzRo7a5eyNcojyc3PD5nI.dJ_pMIwtg4mSzjf4gPlbZD23TBXBiH8Wb3hNThhvyyMPXzBySYRs",
+         "Authorization": "Bearer 00D5i000003N8dT!AR8AQAewvrgWd0EsFpO2colYvPngPJjN0i73_2QTXAwBltCIqAhP7MtWmKwX5CERmYPJoZKwfkWqUn9px.JfQxKgbwp.6Zkr",
          "Content-Type": "application/json",
          "access-control-allow-credentials": true,
          "access-control-allow-origin": "*"
